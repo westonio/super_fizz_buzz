@@ -62,7 +62,7 @@ super_fizz.output_range(8, 15)
 
 Write RSpec tests to verify the behavior of your class. Each method should have at least one test.
 
-### Iteration 4
+## Iteration 4
 
 Create a command line interface where the user can enter a number or a range of numbers and see the output. Example:
 ```
