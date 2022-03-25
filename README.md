@@ -49,19 +49,28 @@ require './super_fizz_buzz'
 super_fizz = SuperFizzBuzz.new
 
 super_fizz.output(8)
-=> "8"
+# => "8"
 
 super_fizz.output(15)
-=> "FizzBuzz"
+# => "FizzBuzz"
 
 super_fizz.output_range(8, 15)
-=> ["8", "Fizz", "Buzz", "11", "Fizz", "13", "Super", "FizzBuzz"]
+# => ["8", "Fizz", "Buzz", "11", "Fizz", "13", "Super", "FizzBuzz"]
 ```
 
 ## Iteration 3
 
-Write a Minitest test to verify the behavior of your class
+Write RSpec tests to verify the behavior of your class. Each method should have at least one test.
 
-### Iteration 4
+## Iteration 4
 
-Create a command line interface where the user can enter a number or a range of numbers and see the output.
+Create a command line interface where the user can enter a number or a range of numbers and see the output. Example:
+```
+Welcome to SuperFizzBuzz! Enter a number or a range...
+
+# => 15
+SuperFizzBuzz
+
+#=> 8, 15
+8, Fizz, Buzz, 11, Fizz, 13, Super, FizzBuzz
+```
